@@ -25,8 +25,8 @@
 
 <table>
   <tr>
-    <td><img src="/assets/images/readme/image.png" /></td>
-    <td><img src="/assets/images/readme/image-1.png"/></td>
+    <td><img src="./assets/images/readme/image.png" /></td>
+    <td><img src="./assets/images/readme/image-1.png"/></td>
   </tr>
 </table>
 
@@ -34,9 +34,9 @@
 
 <table>
 <tr>
-<td> <img src="/assets/images/readme/image-2.png"></td>
-<td> <img src="/assets/images/readme/image-3.png"></td>
-<td> <img src="/assets/images/readme/image-4.png"></td>
+<td> <img src="./assets/images/readme/image-2.png"></td>
+<td> <img src="./assets/images/readme/image-3.png"></td>
+<td> <img src="./assets/images/readme/image-4.png"></td>
 </tr>
 </table>
 
@@ -44,16 +44,16 @@
 
 <table>
 <tr>
-<td><img src="/assets/images/readme/image-11.png" /></td>
+<td><img src="./assets/images/readme/image-11.png" /></td>
 </tr>
-<td><img src="/assets/images/readme/image-9.png" /></td>
+<td><img src="./assets/images/readme/image-9.png" /></td>
 </table>
 
 > 탐색 화면
 
 <table>
 <tr>
-<td><img src="/assets/images/readme/image-10.png" /></td>
+<td><img src="./assets/images/readme/image-10.png" /></td>
 </tr>
 </table>
 
@@ -61,8 +61,8 @@
 
 <table>
 <tr>
-<td><img src="/assets/images/readme/image-8.png" /></td>
-<td><img src="/assets/images/readme/image-5.png" /></td>
+<td><img src="./assets/images/readme/image-8.png" /></td>
+<td><img src="./assets/images/readme/image-5.png" /></td>
 </tr>
 </table>
 
@@ -70,7 +70,7 @@
 
 <table>
 <tr>
-<td><img src="/assets/images/readme/image-6.png" /></td>
+<td><img src="./assets/images/readme/image-6.png" /></td>
 </tr>
 </table>
 
