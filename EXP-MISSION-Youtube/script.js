@@ -3,7 +3,7 @@ const videoList = document.querySelector(".videoContainer");
 
 // 인기 영상 불러오기
 async function loadPopularVideos() {
-  const url = `https://www.googleapis.com/youtube/v3/videos?part=snippet,statistics&chart=mostPopular&regionCode=KR&maxResults=12&key=${API_KEY}`;
+  const url = `https://www.googleapis.com/youtube/v3/videos?part=snippet,statistics&chart=mostPopular&regionCode=KR&maxResults=30&key=${API_KEY}`;
   const response = await fetch(url);
   const data = await response.json();
   renderVideoList(data.items);
@@ -97,17 +97,17 @@ function setupCategoryButtons() {
 }
 
 // 사이드바 열고 닫기
-const Sidebar = () => {
+function Sidebar() {
   const menuToggle = document.getElementById("menuToggle");
   const sidebar = document.getElementById("sidebar");
 
   menuToggle.addEventListener("click", () => {
     sidebar.classList.toggle("hidden");
   });
-};
+}
 
 // 네비게이션바 슬라이드 버튼
-const navbtn = () => {
+function navbtn() {
   const navButtons = document.getElementById("navButtons");
   const navLeft = document.getElementById("navLeft");
   const navRight = document.getElementById("navRight");
@@ -119,7 +119,7 @@ const navbtn = () => {
   navRight.addEventListener("click", () => {
     navButtons.scrollBy({ left: 200, behavior: "smooth" });
   });
-};
+}
 
 // 검색 기능
 function setupSearchBar() {

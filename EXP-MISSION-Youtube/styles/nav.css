@@ -1,11 +1,11 @@
 .nav {
-  position: relative; /* ← 추가!! */
+  position: relative;
   display: flex;
   align-items: center;
   gap: 12px;
   padding: 8px 40px;
   background-color: #0f0f0f;
-  overflow: hidden; /* 슬라이드 영역 잘라냄 */
+  overflow: hidden;
 }
 
 .nav-buttons {

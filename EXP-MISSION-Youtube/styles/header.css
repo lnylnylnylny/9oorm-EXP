@@ -191,7 +191,6 @@
   opacity: 1;
 }
 
-
 @media (max-width: 600px) {
   .search-container {
     max-width: 280px;
